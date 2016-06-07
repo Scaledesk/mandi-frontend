@@ -321,6 +321,7 @@ Header
   }
   .cd-main-nav a:hover {
     opacity: .6;
+    color:#CDDC39;
   }
 }
 
