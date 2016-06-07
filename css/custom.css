@@ -52,3 +52,12 @@
 .m-nav{
     z-index: -100 !important;
 }
+.m-login{
+    border-right: none !important;
+    border-left: none !important;
+
+}
+.m-anchor{
+    color: white !important;
+    padding-top: 15px;
+}
