@@ -61,3 +61,9 @@
     color: white !important;
     padding-top: 15px;
 }
+.fa-check:before {
+    color: #5D9E25;
+}
+.fa-remove:before, .fa-close:before, .fa-times:before {
+    color: #DA2C2A;
+}

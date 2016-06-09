@@ -483,7 +483,8 @@
                                                 <th>Ship to</th>
                                                 <th><span class="nobr">Order Total</span></th>
                                                 <th>Status</th>
-                                                <th>&nbsp;</th>
+                                                <th>Approve</th>
+                                                <th>Reject</th>
                                             </tr>
                                             </thead>
                                             <tbody>
@@ -493,7 +494,9 @@
                                                 <td>pranali d</td>
                                                 <td><span class="price">$5.00</span></td>
                                                 <td><em>Pending</em></td>
-                                                <td class="a-center last"><span class="nobr"> <a href="#">View Order</a> <span class="separator">|</span> <a href="#">Reorder</a> </span></td>
+                                                <td class="a-center last"><a data-toggle="modal" data-target="#myModal"><i class="fa fa-check fa-2x" aria-hidden="true"></i></a></td>
+                                                <td class="a-center last"> <a href="#"><i class="fa fa-times fa-2x" aria-hidden="true"></i></a></td>
+
                                             </tr>
                                             <tr class="last even">
                                                 <td>500000001</td>
@@ -501,17 +504,21 @@
                                                 <td>pranali d</td>
                                                 <td><span class="price">$1,397.99</span></td>
                                                 <td><em>Pending</em></td>
-                                                <td class="a-center last"><span class="nobr"> <a href="#">View Order</a> <span class="separator">|</span> <a href="#">Reorder</a> </span></td>
+                                                <td class="a-center last"><a href="#"><i class="fa fa-check fa-2x" aria-hidden="true"></i></a></td>
+                                                <td class="a-center last"> <a href="#"><i class="fa fa-times fa-2x" aria-hidden="true"></i></a></td>
                                             </tr>
                                             </tbody>
                                         </table>
+
                                     </div>
                                 </div>
+
                             </div>
                             <div class="tab-pane fade" id="profile">
                                 my profile
                                 <p></p>
                             </div>
+
                         </div>
                 </section>
 
@@ -604,6 +611,7 @@
         </div>
     </div>
     <!-- footer ends -->
+
     <div id="search" class="cd-main-search">
         <form>
             <input type="search" placeholder="Search...">
@@ -660,6 +668,30 @@
     </div> <!-- .cd-main-search -->
 
     <div class="cd-cover-layer"></div> <!-- cover main content when search form is open -->
+
+    <!-- Modal -->
+    <div class = "modal fade" id = "myModal" tabindex = "-1" role = "dialog"
+         aria-labelledby = "myModalLabel" aria-hidden = "true">
+        <div class = "modal-dialog">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <button type = "button" class = "close" data-dismiss = "modal" aria-hidden = "true"> × </button>
+                    <h4 class = "modal-title" id = "myModalLabel">
+                        Order Review
+                    </h4>
+                </div>
+                <div class = "modal-body">
+                    Click on close button to check Event functionality.
+                </div>
+                <div class = "modal-footer">
+                    <button type = "button" class = "btn btn-default" data-dismiss = "modal">Close</button>
+                    <button type = "button" class = "btn btn-primary">Continue</button>
+                </div>
+            </div><!-- modal-content -->
+        </div><!--modal-dialog -->
+
+    </div><!--modal -->
+    <!--end modal -->
     <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
     <script src="js/js-header/main.js"></script> <!-- Resource jQuery -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
