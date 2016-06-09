@@ -67,3 +67,6 @@
 .fa-remove:before, .fa-close:before, .fa-times:before {
     color: #DA2C2A;
 }
+.m-cursor{
+    cursor: pointer;
+}
