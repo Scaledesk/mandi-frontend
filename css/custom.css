@@ -70,3 +70,11 @@
 .m-cursor{
     cursor: pointer;
 }
+.m-img{
+    height: 255px;
+}
+.m-product{
+    height: 90px;
+    max-width: 90px;
+}
+
