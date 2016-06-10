@@ -78,10 +78,10 @@
                                     <div style="display: none;" class="top-cart-content arrow_box">
                                         <div class="block-subtitle">Recently added item(s)</div>
                                         <ul id="cart-sidebar" class="mini-products-list">
-                                            <li class="item even"> <a class="product-image" href="product_detail.html" title="Downloadable Product "><img alt="Downloadable Product " src="" width="80"></a>
+                                            <li class="item even"> <a class="product-image" href="" title="Downloadable Product "><img alt="Downloadable Product " src="" width="80"></a>
                                                 <div class="detail-item">
                                                     <div class="product-details"> <a href="#" title="Remove This Item" onClick="" class="btn-remove1">Remove This Item</a> <a class="btn-edit" title="Edit item" href="#">Edit item</a>
-                                                        <p class="product-name"> <a href="product_detail.html" title="Sample Product">Sample Product</a> </p>
+                                                        <p class="product-name"> <a href="" title="Sample Product">Sample Product</a> </p>
                                                     </div>
                                                     <div class="product-details-bottom"> <span class="price">$100.00</span> <span class="title-desc">Qty:</span> <strong>1</strong> </div>
                                                 </div>
@@ -172,7 +172,6 @@
                                 <li class="mandi-aside"><a href="#category" data-toggle="tab">Add Post Stock</a></li>
                                 <li class="mandi-aside"><a href="#order" data-toggle="tab">My Orders</a></li>
                                 <li class="mandi-aside"><a href="#orp" data-toggle="tab">Order Request Page</a></li>
-                                <li class="last mandi-aside"><a href="#profile" data-toggle="tab">Profile</a></li>
                             </ul>
                         </div>
                     </div>
@@ -181,51 +180,108 @@
                     <div class="my-account">
                         <div id="productTabContent" class="tab-content">
                             <div class="tab-pane fade" id="account">
-                                <div class="box-account">
-                                    <div class="page-title">
-                                        <h2>Account Information</h2>
-                                    </div>
-                                    <div class="col2-set">
-                                        <div class="col-1">
-                                            <h5>Contact Information</h5>
-                                            <a href="#">Edit</a>
-                                            <p> John Doe<br>
-                                                johndoe@gmail.com<br>
-                                                <a href="#">Change Password</a> </p>
+                                <ol class="one-page-checkout" id="checkoutSteps">
+                                    <li id="opc-billing" class="section allow active">
+                                        <div class="step-title">
+                                            <h3 class="one_page_heading">Enter Your Details</h3>
+                                            <!--<a href="#">Edit</a>-->
                                         </div>
-                                        <div class="col-2">
-                                            <h5>Newsletters</h5>
-                                            <a href="#">Edit</a>
-                                            <p> You are currently not subscribed to any newsletter. </p>
+                                        <div id="" class="step a-item" style="">
+                                            <form id="" action="checkout">
+                                                <fieldset class="group-select">
+                                                    <ul>
+                                                        <li id="#">
+                                                            <fieldset>
+                                                                <legend>New Address</legend>
+                                                                <input type="hidden" name="billing[address_id]" value="" id="billing:address_id" />
+                                                                <ul>
+                                                                    <li>
+                                                                        <div class="customer-name">
+                                                                            <div class="input-box name-firstname">
+                                                                                <label for=""> Name<span class="required">*</span></label>
+                                                                                <br />
+                                                                                <input type="text" id="" name="" value="" title="" class="input-text required-entry" />
+                                                                            </div>
+                                                                            <div class="input-box name-lastname">
+                                                                                <label for=""> Organisation </label>
+                                                                                <br />
+                                                                                <input type="text" id="" name="" value="" title="" class="input-text required-entry" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="input-box">
+                                                                            <label for="billing:company">Email<span class="required">*</span></label>
+                                                                            <br />
+                                                                            <input type="text" id="y" name="" value="" title="Company" class="input-text" />
+                                                                        </div>
+                                                                        <div class="input-box">
+                                                                            <label for="billing:email">Phone No.<span class="required">*</span></label>
+                                                                            <br />
+                                                                            <input type="text" name="" id="b" value="" title="" class="input-text validate-email required-entry" />
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="input-box">
+                                                                            <label for="billing:city">About You</label>
+                                                                            <br />
+
+                                                                            <input type="text" name="" id="" value="" title="About you" class="input-text validate-email" />
+                                                                        </div>
+                                                                        <div id="div" class="input-box">
+                                                                            <label for="billing:region">Social Links</label>
+                                                                            <br />
+
+                                                                            <input type="text" id="billing:region" name="" value="" title="Social Links" class="input-text" />
+                                                                        </div>
+                                                                    </li>
+                                                                    <li id="register-customer-password">
+                                                                        <div class="input-box">
+                                                                            <label for="">Add a workplace </label>
+                                                                            <br />
+                                                                            <input type="text" name="" id="" title="Password" class="input-text " />
+                                                                        </div>
+                                                                        <div class="input-box">
+                                                                            <label for="">Address</label>
+                                                                            <br />
+                                                                            <input type="text" name="" title="Confirm Password" id="" class="input-text " />
+                                                                        </div>
+                                                                    </li>
+                                                                    <li id="">
+                                                                        <div class="input-box">
+                                                                            <label for="">State <span class="required">*</span></label>
+                                                                            <br />
+                                                                            <input type="text" name="" id="" title="Password" class="input-text " />
+                                                                        </div>
+                                                                        <div class="input-box">
+                                                                            <label for="">Zip Code<span class="required">*</span></label>
+                                                                            <br />
+                                                                            <input type="text" name="" title="" id="" class="input-text " />
+                                                                        </div>
+                                                                    </li>
+                                                                    <li id="register-customer-password">
+                                                                        <div class="input-box">
+                                                                            <label for="">Password <span class="required">*</span></label>
+                                                                            <br />
+                                                                            <input type="password" name="" id="" title="Password" class="input-text  validate-password" />
+                                                                        </div>
+
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="hidden" name="billing[save_in_address_book]" value="1" />
+                                                                    </li>
+                                                                </ul>
+                                                            </fieldset>
+                                                        </li>
+                                                    </ul>
+                                                    <p class="require"><em class="required">* </em>Required Fields</p>
+                                                    <button type="button" class="button continue" onClick="billing.save()"><span>Submit</span></button>
+                                                </fieldset>
+                                            </form>
                                         </div>
-                                    </div>
-                                    <div class="col2-set">
-                                        <h4>Address Book</h4>
-                                        <div class="manage_add"><a href="#">Manage Addresses</a> </div>
-                                        <div class="col-1">
-                                            <h5>Primary Billing Address</h5>
-                                            <address>
-                                                John D.<br>
-                                                Main Rd,<br>
-                                                Alabama, 46532<br>
-                                                United States<br>
-                                                T: 454541 <br>
-                                                <a href="#">Edit Address</a>
-                                            </address>
-                                        </div>
-                                        <div class="col-2">
-                                            <h5>Primary Shipping Address</h5>
-                                            <address>
-                                                John Doe<br>
-                                                Main Road,<br>
-                                                Alabama, 46532<br>
-                                                United States<br>
-                                                T: 454541 <br>
-                                                <a href="#">Edit Address</a>
-                                            </address>
-                                        </div>
-                                    </div>
-                                </div>
+                                    </li>
+
+                                </ol>
                             </div>
                             <div class="tab-pane fade" id="past-list">
                                 <ol id="products-list" class="products-list">
