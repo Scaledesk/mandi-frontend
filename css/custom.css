@@ -71,10 +71,25 @@
     cursor: pointer;
 }
 .m-img{
-    height: 255px;
+    height: 300px;
 }
 .m-product{
     height: 90px;
     max-width: 90px;
 }
+@media only screen and (max-width: 850px){
+    .cd-logo img {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        margin-top: 0px !important;
+        height: 50px;
+    }}
 
+@media only screen and (min-width:1024px){
+    .cd-logo img {
+    height: 80px;
+        width: 130px;
+        margin-top: 0px !important;
+        padding: 5px 0px;
+    }
+}
