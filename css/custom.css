@@ -93,3 +93,11 @@
         padding: 5px 0px;
     }
 }
+@media only screen and (max-width: 450px){
+    .toplinks{
+        padding-right: 45px;
+    }
+    .m-nav{
+        z-index: 100 !important;
+    }
+}

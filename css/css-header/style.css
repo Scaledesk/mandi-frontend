@@ -259,7 +259,7 @@ Header
 .cd-main-nav {
   position: fixed;
   z-index: 1;
-  top: 0;
+  top: 78px !important;
   right: 0;
   width: 260px;
   height: 100vh;
@@ -819,8 +819,7 @@ Page main content
   width: 100%;
   height: calc(100vh - 50px);
   position: relative;
-  z-index: 2;
-  background-color: #40508e;
+  z-index: -2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition: -webkit-transform 0.3s;
