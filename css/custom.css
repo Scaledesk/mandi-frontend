@@ -101,3 +101,7 @@
         z-index: 100 !important;
     }
 }
+.m-owl{
+    height: auto;
+    width: 100%;
+}
