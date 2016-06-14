@@ -16,16 +16,21 @@ label {
 	margin-left: 10px!important;
 	color:white;
 }
+.sze-20
+{
+font-size: 20px;
+
+}
 
 .whiter{
 	color:white;
 }
 .m-bottom-35{
 	margin-bottom: 35px!important;
-	border-spacing: 10px!important;s
+	border-spacing: 10px!important;
 }
-.m-up-35{
-	margin-top: 55px!important;
+.m-up-25{
+	margin-top: 25px!important;
 
 }
 

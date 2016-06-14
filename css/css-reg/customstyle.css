@@ -24,6 +24,11 @@ a:hover {
   color: white;
 }
 
+.m-login-bg{
+  background: #000000!important;
+  opacity: 0.9;
+}
+
 .form {
   background: #000000!important;
   opacity: 0.9;
