@@ -7,6 +7,14 @@
 	margin-bottom: 40px;
 }
 
+.m-radio-rgt{
+	margin-left: 20px;
+}
+
+.m-radio-rgt2{
+	margin-left: 45px;
+}
+
 label {
 	font-size: 18px!important;
 }
@@ -69,11 +77,19 @@ font-size: 20px;
 .col1{
 	color: white;
 }
-.btn_g{border-radius: 0!important;
+.btn_g{
+	border-radius: 0!important;
 	font-size: 18px;
 
 }
 
+.m-radio-rgt{
+	margin-left: 70px;
+}
+
+.m-radio-rgt2{
+	margin-left: 98px;
+}
 
 
 .btn1{
@@ -93,7 +109,7 @@ font-size: 20px;
 
 }
 .smlltxt{text-align: center;
-	color:red;
+	color:orange;
 	font-size: 20px;
 }
 
@@ -101,6 +117,8 @@ font-size: 20px;
 	color:#ffffff;
 	font-size: 35px!important;
 }
+
+
 
 @media(max-width:767px) {
     /* For mobile phones: */
@@ -116,6 +134,16 @@ font-size: 20px;
 	color:#ffffff;
 	font-size: 25px!important;
 }
+
+.m-radio-rgt{
+	margin-left: 30px;
+}
+
+.m-radio-rgt2{
+	margin-left: 56px;
+}
+
+
 }
 
 

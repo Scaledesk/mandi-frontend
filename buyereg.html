@@ -43,8 +43,11 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,800' rel='stylesheet' type='text/css'>
 </head>
 
-<body id="page-top" class="index">
-     <!-- Header green -->
+
+<body>
+  <div id="page">
+
+    <!-- Header green -->
     <div class="header-banner ">
         <div class="assetBlock">
             <div style="height: 20px; overflow: hidden;" id="slideshow">
@@ -139,7 +142,7 @@
     <!-- Navbar -->
     <header class="cd-main-header animate-search">
         <div class="cd-logo"><a href="#0">
-            <img src="images/img-header/cd-logo.svg" alt="Logo"></a></div>
+            <img src="images/img-header/logo.jpg" alt="Logo"></a></div>
 
         <nav class="cd-main-nav-wrapper m-nav">
             <a href="#search" class="cd-search-trigger cd-text-replace">Search</a>
@@ -213,10 +216,12 @@
     <div class="cd-cover-layer"></div> <!-- cover main content when search form is open -->
     
 <!--signup  -->
-    
+ 
+
   <div class="form">
       <ul class="tab-group">
-      
+       
+       
       </ul>
 
       <div class="tab-content">
@@ -225,134 +230,93 @@
 
           <form action="/" method="post">
 
-           <div class="top-row">
+            <div class="row text-center field-wrap">
+    <div class="col-xs-3 text-center whiter"><label class="radio">
+        <input type="radio" name="optradio" value="male" checked><span class="m-radio-rgt">Individual</span>
+    </label>
+    </div>
+      <div class="col-xs-5 col-xs-offset-2 text-center whiter"><label class="radio">
+                <input type="radio" name="optradio" value="Female"><span class="m-radio-rgt2">Organisation
+            </span>
+</label>
+    </div>
+
+</div>
+
+          
             <div class="field-wrap">
               <label>
-                First Name<span class="req">*</span>
+             Name/Organisation Name<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off" />
+            </div>
+
+            <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                Email<span class="req">*</span>
               </label>
               <input type="text" required autocomplete="off" />
             </div>
                 <div class="field-wrap">
               <label>
-                Last Name<span class="req">*</span>
+                Mobile No.<span class="req">*</span>
               </label>
               <input type="text"required autocomplete="off"/>
             </div></div>
 
-
           <div class="top-row">
-            <div class="field-wrap">
-              <label>
-                Mobile No.<span class="req">*</span>
-              </label>
-              <input type="text" required autocomplete="off" />
-            </div>
-
-            <div class="field-wrap">
-              <label>
-               Email <span class="req">*</span>
-              </label>
-              <input type="text"required autocomplete="off"/>
-            </div>
-          </div>
-
-           <div class="top-row">
             <div class="field-wrap">
               <label>
                Password<span class="req">*</span>
               </label>
+              <input type="password"required autocomplete="off"/>
+            </div>
+        <div class="field-wrap">
+              <label>
+                Pin Code<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off" />
+            </div></div>
+
+            <div class="field-wrap">
+              <label>
+             Address<span class="req">*</span>
+              </label>
               <input type="text" required autocomplete="off" />
             </div>
+
              <div class="field-wrap">
               <label>
-              Pin Code <span class="req">*</span>
+             Contact Person Name<span class="req">*</span>
               </label>
-              <input type="text"required autocomplete="off"/>
+              <input type="text" required autocomplete="off" />
             </div>
-          </div>
-
-
-          <div class="field-wrap">
-            <label>
-              Address<span class="req">*</span>
-            </label>
-            <input type="password"required autocomplete="off"/>
-          </div>
 
 
 
-    <div class="field-wrap">
-    <div class="row">
-       <div class ="col-md-3">
-        <div class="checkbox">
-        <label><input type="checkbox" value=""></label>
-        </div></div></div> 
-        <div class ="col-md-9"><span class="whiter sze-20"> Organisation Buyer</span>
-        </div></div>
 
-  
 
-         <div class="field-wrap">
-            <label>
-              Organisation Name<span class="req">*</span>
-            </label>
-            <input type="text"required autocomplete="off"/>
-          </div>
+            
+         
 
-           <div class="field-wrap">
-            <label>
-              Organisation address<span class="req">*</span>
-            </label>
-            <input type="text"required autocomplete="off"/>
-          </div>
 
-           <div class="field-wrap">
-            <label>
-            Contact<span class="req">*</span>
-            </label>
-            <input type="number"required autocomplete="off"/>
-          </div>
- 
-          <div class="row">
+           <div class="row">
             <div class="col-md-12 text-center">
            <button class="mbutton"/>Send OTP</button>
           </div>
-           </div> 
+        </div> 
          
-         </form>
+</form>
+          
           </div>
 
-          <div id="login">
-         
+        <div id="login">
+       </div>
 
-
-</div>
 </div><!-- tab-content -->
-</div> <!-- /form -->
-<div class="our-features-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-xs-12 col-sm-4">
-                    <div class="feature-box">
-                        <div class="icon-truck">&nbsp;</div>
-                        <div class="content">Free Shipping</div>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</span> </div>
-                </div>
-                <div class="col-md-4 col-xs-12 col-sm-4">
-                    <div class="feature-box">
-                        <div class="icon-love">&nbsp;</div>
-                        <div class="content">Customer Support</div>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</span> </div>
-                </div>
-                <div class="col-md-4 col-xs-12 col-sm-4">
-                    <div class="feature-box">
-                        <div class="icon-return">&nbsp;</div>
-                        <div class="content">30 days money back</div>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</span> </div>
-                </div>
-            </div>
-        </div>
-    </div>
+</div>
+
     <div class="footer-middle mandi-footer">
         <div class="container">
             <div class="row">
@@ -414,7 +378,7 @@
     </div>
 
 </div>
-<!-- jQuery -->
+
 <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>  
 
 <!-- Bootstrap Core JavaScript -->
